@@ -1,0 +1,208 @@
+.companyEn{
+    height: 520px;
+    width: 100%;
+}
+.companyEnLeft{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+}
+.companyEnLeft p:nth-child(1){
+    text-align: center;
+    width: 540px;
+    float: right;
+    line-height: 50px;
+    font-family: MicrosoftYaHei;
+	font-size: 44px;
+	font-weight: normal;
+	font-stretch: normal;
+    letter-spacing: 5px;
+    margin-top: 100px;
+    color: #292929;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.companyEnLeft p:nth-child(1) span:nth-child(1){
+	color: #f8cc00;
+}
+.companyEnLeft p:nth-child(1) span:nth-child(2){
+    font-size: 28px;
+}
+.companyEnLeft p:nth-child(2){
+    text-align: left;
+    width: 571px;
+    float: right;
+    font-size: 20px;
+    line-height: 33px;
+    text-indent: 40px;
+    text-align: justify;
+    text-align-last: left;
+    -ms-text-align-last: justify;
+    -moz-text-align-last: justify;
+}
+.companyEnRight{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 20px;
+    overflow: hidden;
+    display: inline-block;
+    padding-left: 15px;
+}
+.companyEnRight img{
+    display: inline-block;
+    height: 450px;
+    width: 600px;
+}
+.positionMy{
+    width: 100%;
+    /* height: 800px; */
+    padding-top: 80px;
+    background-image: url('../img/joinUs/pos.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
+}
+.positionMy::after{content: '';display: block;padding-bottom: 6%}
+.posTitle{
+    text-align: center;
+    height: 52px;
+    width: 640px;
+    margin: 0 auto;
+	font-family: PingFang-SC-Heavy;
+	font-size: 46px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 20px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #B6AEAE;
+	color: #fff;
+}
+.posTitle :nth-child(1){
+    color: #f8cc00;
+}
+.teamLR{
+    width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+.teamLR .teamImg{
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    width: 50%;
+    /* background: red; */
+    padding-right: 76px;
+    text-align: right;
+    
+}
+.teamLR .teamImg img{
+    display: inline-block;
+    height: auto;
+    max-width: 90%;
+}    
+.teamLR p{
+    display: inline-block;
+    float: left;
+    width: 510px;
+	height: 329px;
+	font-family: MicrosoftYaHei;
+	font-size: 26px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 28px;
+    letter-spacing: 0px;
+    margin-top: 150px;
+    color: #ffffff;
+    text-align: justify;
+    text-align-last: left;
+    -ms-text-align-last: justify;
+    -moz-text-align-last: justify;
+}
+.goodLife{
+    width: 100%;
+    height: auto;
+    background-image: url('../img/joinUs/goodLife.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: left top;
+}
+.goodLife::after{content: '';display: block;padding-bottom: 41%;}
+.goodLifeAlign{
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+}
+.goodLife p{
+    text-align: center;
+    height: 52px;
+    width: 540px;
+    font-family: PingFang-SC-Heavy;
+	font-size: 35px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 50px;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #B6AEAE;
+    /* padding-top: 114px; */
+	color: #292929;
+}
+.goodLife p span:nth-child(1){
+    color: #f8cc00;
+}
+.goodLifeAlign h3{
+    display: inline-block;
+    float: left;
+    width: 570px;
+	height: 329px;
+	font-family: MicrosoftYaHei;
+	font-size: 26px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 28px;
+    letter-spacing: 0px;
+    margin-top: 45px;
+    color: #292929;
+    text-align: justify;
+    text-align-last: left;
+    -ms-text-align-last: justify;
+    -moz-text-align-last: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1099px) {
+
+}
+@media only screen and (min-width:1669px) {
+    .companyEn{
+        height: 550px;
+        width: 100%;
+    }
+    .companyEnLeft{
+        width: 50%;
+        height: 100%;
+        padding-left: 30%;
+        display: inline-block;
+        float: left;
+    }
+    .companyEnRight img{
+        display: inline-block;
+        height: 500px;
+        width: 700px;
+    }
+}    

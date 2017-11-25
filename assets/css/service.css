@@ -1,0 +1,70 @@
+.contentImg1{width: 100%; height: 700px; background-image: url('../img/service/contentImg1.png'); background-size: 100% 100%; background-position: left top; background-repeat: no-repeat; position: relative; overflow: hidden;}
+.contentImg1::after{content: ''; display: block; padding-bottom: 40%;}
+.serviceW128{width: 100%; height: 500px; margin: 0 auto; position: absolute; /* background: #da3737; */ z-index: 100000;}
+.serviceCom{width: 1200px; margin: 0 auto; height:500px;}
+/**tabs**/
+.tabPanel1 ul{height:210px; /* justify-content: space-between; display: flex; */ background-image: url('../img/service/bgTab.png'); background-size: 100% 100%; background-repeat: no-repeat; background-position: left top;}
+.tabPanel1 ul li{float:left;height:179px;line-height:30px; width:281px; /* margin-right: 20px; */ /* text-align:center; background-image: url('../img/service/tab1.png'); background-size: 100% 100%; background-repeat: no-repeat; background-position: left top; */}
+.tabPanel ul{height:30px;}
+/* .tabPanel .hit{border-bottom:1px solid #fff;background:red;} */
+.pane{display:none;}
+.tabVertical1 p{width: 381px; height:47px;font-family: MicrosoftYaHei;font-size: 30px;font-weight: normal;font-stretch: normal;line-height: 40px;letter-spacing: 3px; color: #ffffff; margin-left: 10px; border-bottom: 1px solid #ddd;}
+.tabVertical1Ios{width: 100%;height:auto;margin-top: 22px;margin-left: 10px}
+.tabVertical1Ios img{display: block;height: 83px;height: 78px;float: left;}
+.tabVertical1Conl{float: left;width: 280px;height: 180px;margin-left: 45px;}
+.tabVertical1ConR{float: left;width: 280px;height: 180px;}
+.tabVertical1Conl h2{height: 23px;font-family: MicrosoftYaHei;font-size: 24px;font-weight: normal;font-stretch: normal; line-height: 30px; height: 36px;letter-spacing: 2px; color: #f8cc00;}
+.tabVertical1Conl h2 span{font-size: 26px;}
+.tabVertical1Conl ul{list-style: none;}
+.tabVertical1Conl ul li{text-decoration: none;color: #fff;line-height: 20px;}
+.tabVertical1ConR h2{height: 23px;font-family: MicrosoftYaHei;font-size: 24px;font-weight: normal;font-stretch: normal; line-height: 30px; height: 36px;letter-spacing: 2px; color: #f8cc00;}
+.tabVertical1ConR h2 span{font-size: 26px;}
+.tabVertical1ConR ul{list-style: none;}
+.tabVertical1ConR ul li{text-decoration: none;color: #fff;line-height: 20px;}
+#ulLiTitle{font-size: 17px;line-height: 36px;}
+/* iosCPS */
+.iosCps{width: 1180px;height: 700px; margin: 0 auto;}
+.iosCpsP{width: 390px;height: 65px;font-family: MicrosoftYaHei;font-size: 30px;font-weight: normal;font-stretch: normal;line-height: 60px;letter-spacing: 3px; color: #444444; border-bottom: 1px solid #ddd;}
+.capPub{color: #fff; width: 200px;}
+.tabPanelLi{width: 78px;height: 83px;background-image: url("../img/service/bg.png"); background-repeat: no-repeat; background-size: 78px 83px; background-position: center center; z-index: 10000; margin-top: 26px;}
+.tabPanelLi3{width: 78px;height: 83px;background-image: url("../img/service/bg.png"); background-repeat: no-repeat; background-size: 78px 83px; background-position: center center; z-index: 10000; margin-top: 26px;}
+.bgHover{width: 78px;height: 83px;background-image: url("../img/service/bgHover.png"); background-repeat: no-repeat; background-size: 78px 83px; background-position: center center; z-index: 10000;}
+.tabPanel ul li:nth-child(1) p{z-index: 1; width: 76px; height: 81px; background-image: url("../img/service/a1.png"); background-repeat: no-repeat; background-size: 31px 36px; background-position: center center;}
+.tabPanel ul li:nth-child(2) p{z-index: 1; width: 76px; height: 81px; background-image: url("../img/service/a2.png"); background-repeat: no-repeat; background-size: 31px 36px; background-position: center center;}
+.tabPanel ul li:nth-child(3) p{z-index: 1; width: 76px; height: 81px; background-image: url("../img/service/a3.png"); background-repeat: no-repeat; background-size: 31px 36px; background-position: center center;}
+.panes{margin-left: 103px;width: 1036px;height: 544px; border: solid 2px #f3f3f3; margin-top: -30px;}
+.androidAso{width: 100%;height:100%;}
+.androidAsoTitle{width: 668px; height: 60px; margin-left: 46px;font-family: MicrosoftYaHei;font-size: 22px;font-weight: normal;font-stretch: normal;line-height: 60px;letter-spacing: 2px;color: #f8cc00;}
+.androidAsoL{width: 600px;height: 440px;float: left;overflow: hidden;text-align: center;}
+.androidAsoR{width: 400px;height: 440px;float: right;overflow: hidden;text-align: center;}
+.androidAsoLImg{height: 84px;width: 84px;text-align: center}
+.androidAsoLP{height: 40px;font-family: MicrosoftYaHei;font-size: 16px;font-weight: normal;font-stretch: normal;line-height: 40px;letter-spacing: 1px;color: #727274;}
+.androidAsoLPIm{height: 60px;font-family: MicrosoftYaHei;font-size: 20px;font-weight: normal;font-stretch: normal;line-height: 60px;letter-spacing: 1px;color: #727274;}
+/* table */
+.tg{border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:13px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:13px;font-weight:normal;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-j6lv{background-color:#96fffb;text-align:center;vertical-align:top}
+.tg .tg-hxtd{background-color:#96fffb;vertical-align:top}
+.tg .tg-yw4l{vertical-align:top}
+/* tab重要信息 */
+.androidAsoUl,.androidAsoUl1{list-style: none; width: 185px; margin: 20px auto; text-align: left;}
+.androidAsoLUl{width: 340px; margin:0 auto;}
+.androidAsoLUl li{text-align: left; padding-left: 40px;}
+.androidAsoUl li{display: inline-block; width: 81px; height: 30px;}
+.androidAsoUl1 li{text-align: left; padding-left: 50px;}
+.androidAsoLUl li:last-child{padding-top: 30px; width: 300px;}
+.androidAsoLUl li:last-child span{display: inline-block; width: 15px; height: 15px; background-image: url(../img/service/five.png); background-repeat: no-repeat; background-size: 15px 15px; margin-right: 5px;}
+.androidAsoLUl3{width: 288px; margin:20px auto; letter-spacing: 1px; text-align: left; font-size: 14px; line-height: 23px;}
+/* tab3 */
+.iosCpsUp{background: url(../img/service/tabbg3.png); background-size: cover; background-repeat: no-repeat; color: #fff;}
+.capfirst1{width: 33%;float: left;text-align: center;padding-top: 20px;}
+.capfirst2{width: 50%;float: left;text-align: center;padding-top: 20px;}
+.capfirst1 .androidAsoLP{font-size: 16px; line-height: 60px; color: #fff;}
+.capol{position: static; padding-top: 40px;}
+.capol li{width: 250px; display: inline-block; margin: 0 auto; padding-left: 65px; padding-top: 10px; color: #fff; background: rgba(215, 215, 215, 0); text-align: left; height: auto; line-height:22px;}
+.capfirst1P{width: 200px; margin:0 auto;}
+.capfirst2P{width: 300px; font-size: 14px; margin:20px auto; text-align: left;}
+#tabrightId{width: 40%;}
+/* @media only screen and (min-width:1960px){.contentImg1{height: 780px;}} */
