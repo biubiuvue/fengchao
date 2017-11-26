@@ -1,208 +1,42 @@
-.companyEn{
-    height: 520px;
-    width: 100%;
-}
-.companyEnLeft{
-    width: 50%;
-    height: 100%;
-    display: inline-block;
-    float: left;
-}
-.companyEnLeft p:nth-child(1){
-    text-align: center;
-    width: 540px;
-    float: right;
-    line-height: 50px;
-    font-family: MicrosoftYaHei;
-	font-size: 44px;
-	font-weight: normal;
-	font-stretch: normal;
-    letter-spacing: 5px;
-    margin-top: 100px;
-    color: #292929;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-.companyEnLeft p:nth-child(1) span:nth-child(1){
-	color: #f8cc00;
-}
-.companyEnLeft p:nth-child(1) span:nth-child(2){
-    font-size: 28px;
-}
-.companyEnLeft p:nth-child(2){
-    text-align: left;
-    width: 571px;
-    float: right;
-    font-size: 20px;
-    line-height: 33px;
-    text-indent: 40px;
-    text-align: justify;
-    text-align-last: left;
-    -ms-text-align-last: justify;
-    -moz-text-align-last: justify;
-}
-.companyEnRight{
-    width: 50%;
-    height: 100%;
-    float: left;
-    padding-top: 20px;
-    overflow: hidden;
-    display: inline-block;
-    padding-left: 15px;
-}
-.companyEnRight img{
-    display: inline-block;
-    height: 450px;
-    width: 600px;
-}
-.positionMy{
-    width: 100%;
-    /* height: 800px; */
-    padding-top: 80px;
-    background-image: url('../img/joinUs/pos.png');
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: 100% 100%;
-}
+.companyEn{height: 520px; width: 100%;}
+.companyEnLeft{width: 50%; height: 100%; display: inline-block; float: left;}
+.companyEnLeft p:nth-child(1){text-align: center; width: 540px; float: right; line-height: 50px; font-family: MicrosoftYaHei;font-size: 44px;font-weight: normal;font-stretch: normal; letter-spacing: 5px; margin-top: 100px; color: #292929; border-bottom: 1px solid #ccc; margin-bottom: 20px;}
+.companyEnLeft p:nth-child(1) span:nth-child(1){color: #f8cc00;}
+.companyEnLeft p:nth-child(1) span:nth-child(2){font-size: 28px;}
+.companyEnLeft p:nth-child(2){text-align: left; width: 571px; float: right; font-size: 20px; line-height: 33px; text-indent: 40px; text-align: justify; text-align-last: left; -ms-text-align-last: justify; -moz-text-align-last: justify;}
+.companyEnRight{width: 50%; height: 100%; float: left; padding-top: 20px; overflow: hidden; display: inline-block; padding-left: 15px;}
+.companyEnRight img{display: inline-block; height: 450px; width: 600px;}
+.positionMy{width: 100%; /* height: 800px; */ padding-top: 80px; background-image: url('../img/joinUs/pos.png'); background-repeat: no-repeat; background-position: left top; background-size: 100% 100%;}
 .positionMy::after{content: '';display: block;padding-bottom: 6%}
-.posTitle{
-    text-align: center;
-    height: 52px;
-    width: 640px;
-    margin: 0 auto;
-	font-family: PingFang-SC-Heavy;
-	font-size: 46px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 20px;
-    letter-spacing: 0px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #B6AEAE;
-	color: #fff;
-}
-.posTitle :nth-child(1){
-    color: #f8cc00;
-}
-.teamLR{
-    width: 1200px;
-    margin: 0 auto;
-    height: auto;
-}
-.teamLR .teamImg{
-    display: inline-block;
-    float: left;
-    overflow: hidden;
-    width: 50%;
-    /* background: red; */
-    padding-right: 76px;
-    text-align: right;
-    
-}
-.teamLR .teamImg img{
-    display: inline-block;
-    height: auto;
-    max-width: 90%;
-}    
-.teamLR p{
-    display: inline-block;
-    float: left;
-    width: 510px;
-	height: 329px;
-	font-family: MicrosoftYaHei;
-	font-size: 26px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 28px;
-    letter-spacing: 0px;
-    margin-top: 150px;
-    color: #ffffff;
-    text-align: justify;
-    text-align-last: left;
-    -ms-text-align-last: justify;
-    -moz-text-align-last: justify;
-}
-.goodLife{
-    width: 100%;
-    height: auto;
-    background-image: url('../img/joinUs/goodLife.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: left top;
-}
+.posTitle{text-align: center; height: 52px; width: 640px; margin: 0 auto;font-family: PingFang-SC-Heavy;font-size: 46px;font-weight: normal;font-stretch: normal;line-height: 20px; letter-spacing: 0px; margin-bottom: 20px; border-bottom: 1px solid #B6AEAE;color: #fff;}
+.posTitle :nth-child(1){color: #f8cc00;}
+.posTitle span:nth-child(2){font-size: 28px; letter-spacing: 5px;}
+.goodLifeAlign span:nth-child(2){font-size: 28px; letter-spacing: 5px;}
+.teamLR{width: 1200px; margin: 0 auto; height: auto;}
+.teamLR .teamImg{display: inline-block; float: left; overflow: hidden; width: 50%; /* background: red; */ padding-right: 76px; text-align: right;}
+.teamLR .teamImg img{display: inline-block; height: auto; max-width: 90%;}
+.teamLR p{width: 571px; margin-left: -30px; margin-top: 140px; float: left; font-size: 20px; line-height: 33px; text-indent: 40px; text-align: justify; text-align-last: left; color: #fff;}
+.goodLife{width: 100%; height: auto; background-image: url('../img/joinUs/goodLife.png'); background-repeat: no-repeat; background-size: 100% 100%; background-position: left top;}
 .goodLife::after{content: '';display: block;padding-bottom: 41%;}
-.goodLifeAlign{
-    width: 1180px;
-    margin: 0 auto;
-    position: relative;
-    top: 120px;
-}
-.goodLife p{
-    text-align: center;
-    height: 52px;
-    width: 540px;
-    font-family: PingFang-SC-Heavy;
-	font-size: 35px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 50px;
-    letter-spacing: 0px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #B6AEAE;
-    /* padding-top: 114px; */
-	color: #292929;
-}
-.goodLife p span:nth-child(1){
-    color: #f8cc00;
-}
-.goodLifeAlign h3{
-    display: inline-block;
-    float: left;
-    width: 570px;
-	height: 329px;
-	font-family: MicrosoftYaHei;
-	font-size: 26px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 28px;
-    letter-spacing: 0px;
-    margin-top: 45px;
-    color: #292929;
-    text-align: justify;
-    text-align-last: left;
-    -ms-text-align-last: justify;
-    -moz-text-align-last: justify;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 769px) and (max-width: 1099px) {
-
-}
-@media only screen and (min-width:1669px) {
-    .companyEn{
-        height: 550px;
-        width: 100%;
-    }
-    .companyEnLeft{
-        width: 50%;
-        height: 100%;
-        padding-left: 30%;
-        display: inline-block;
-        float: left;
-    }
-    .companyEnRight img{
-        display: inline-block;
-        height: 500px;
-        width: 700px;
-    }
-}    
+.goodLifeAlign{width: 1180px; margin: 0 auto; position: relative; top: 120px;}
+.goodLife p{text-align: center; height: 52px; width: 558px; font-family: PingFang-SC-Heavy;font-size: 35px;font-weight: normal;font-stretch: normal;line-height: 50px; letter-spacing: 0px; margin-bottom: 20px; border-bottom: 1px solid #B6AEAE; /* padding-top: 114px; */color: #292929;}
+.goodLife p span:nth-child(1){color: #f8cc00;}
+.goodLifeAlign h3{width: 571px; float: left; margin-top: 20px; font-size: 20px; line-height: 33px; text-indent: 40px; text-align: justify; text-align-last: left;}
+@media only screen and (min-width: 769px) and (max-width: 1099px){}
+@media only screen and (min-width:1669px){.companyEn{height: 550px; width: 100%;} .companyEnLeft{width: 50%; height: 100%; padding-left: 30%; display: inline-block; float: left;} .companyEnRight img{display: inline-block; height: 500px; width: 700px;}}
+@media only screen and (max-width:480px){.companyEn{height: 520px; width: 100%;} .companyEnLeft{width: 100%; height: auto; display: inline-block; float: left;} .companyEnLeft p:nth-child(1){text-align: center; width: 250px;float: initial; margin:0 auto; line-height: 40px; font-family: MicrosoftYaHei;font-size: 22px;font-weight: normal;font-stretch: normal; letter-spacing: 2px; margin-top: 20px; color: #292929; border-bottom: 1px solid #ccc; margin-bottom: 20px;} .companyEnLeft p:nth-child(1) span:nth-child(2){font-size: 14px; letter-spacing:0px;} .companyEnLeft p:nth-child(2){text-align: left;padding:0 5%; width: 100%; float: initial; font-size: 14px; line-height: 22px; text-indent: 30px; text-align: justify; text-align-last: left; -ms-text-align-last: justify; -moz-text-align-last: justify;}
+.companyEnRight{width: 100%; height: auto; float: left; padding-top: 0px; overflow: hidden; display: inline-block; padding-left: 15px;}
+.companyEnRight img{display: block;width: 88%;margin: 0 auto;height: auto;}
+.positionMy{background-size: cover}
+.posTitle{width:276px; margin:0 auto; font-size: 20px; letter-spacing:4px; margin-bottom: 0; height: 30px;}
+.posTitle span:nth-child(2){font-size: 16px; letter-spacing:0px;}
+.teamLR{width: 100%;}
+.teamLR .teamImg{display: block; float: initial; overflow: hidden; width: 100%; /* background: red; */ padding-right: 0; text-align: center;}
+.teamLR .teamImg img{display: block;margin-left: 0; width: 90%; margin:0 auto;}
+.teamLR p{width: 100%; margin-left: 0px; margin-top: 20px; float: left; font-size: 15px; line-height: 23px; text-indent: 30px; text-align: justify; text-align-last: left; color: #fff;padding:0 5%;}
+.goodLifeAlign{width: 100%;}
+.goodLife p{text-align: center; height: 32px; width: 265px; font-family: PingFang-SC-Heavy;margin:0 auto; font-size: 20px;font-weight: normal;font-stretch: normal;line-height: 36px; letter-spacing: 0px; margin-bottom: 0px;}
+.goodLifeAlign span:nth-child(2){font-size: 16px; letter-spacing: 0px;}
+.goodLife::after{display: none;}
+.goodLife{height: 300px; background-size: cover;}
+.goodLifeAlign h3{width: 100%;padding:0 5%; float: initial; margin-top: 20px; font-size: 14px; line-height: 26px; text-indent: 30px; text-align: justify; text-align-last: left;} .goodLifeAlign{top: 20px;}}

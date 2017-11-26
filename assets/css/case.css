@@ -1,68 +1,13 @@
-.bannerImg img{
-    width: 100%;
-}
-.caseContent{
-    width: 1186px;
-    margin: 0 auto;
-    padding-bottom: 191px;
-}
-.caseContentTitle{
-    width: 516px;
-    margin: 0 auto;
-    margin-top: 56px;
-    padding-bottom: 15px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #b6aeae; 
-    text-align: center;
-    font-family: PingFang-SC-Heavy;
-}
-.caseContentTitle span:nth-child(1){
-    height: 52px;
-	font-family: PingFang-SC-Heavy;
-	font-size: 44px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 24px;
-	letter-spacing: 0px;
-	color: #f8cc00;
-}
-.caseContentTitle span:nth-child(2){
-    height: 52px;
-	font-family: PingFang-SC-Heavy;
-	font-size: 46px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 24px;
-	letter-spacing: 0px;
-	color: #292929;
-}
-.caseContentTitle span:nth-child(3){
-    height: 52px;
-    font-family: TimesNewRomanPSMT;
-	font-size: 36px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 24px;
-	letter-spacing: 0px;
-	color: #292929;
-}
-.caseGame button{
-    height: 89px;
-    border: 0;
-    background: #5ebbdd;
-    width: 288px;
-    border-radius: 10px;
-    font-size: 36px;
-    color: #fff;
-    margin-top: 64px;
-    margin-bottom: 52px;
-}
-#toolCase{
-    background: #57e26a;
-}
-#channel{
-    background: #f45387;
-}
-#quality{
-    background: #a640c0;
-}
+.bannerImg img{width: 100%;}
+.caseContent{width: 1186px; margin: 0 auto; padding-bottom: 191px;}
+.caseContentTitle{width: 516px; margin: 0 auto; margin-top: 56px; padding-bottom: 15px; margin-bottom: 20px; border-bottom: 1px solid #b6aeae; text-align: center; font-family: PingFang-SC-Heavy;}
+.caseContentTitle span:nth-child(1){height: 52px;font-family: PingFang-SC-Heavy;font-size: 44px;font-weight: normal;font-stretch: normal;line-height: 24px;letter-spacing: 0px;color: #f8cc00;}
+.caseContentTitle span:nth-child(2){height: 52px;font-family: PingFang-SC-Heavy;font-size: 46px;font-weight: normal;font-stretch: normal;line-height: 24px;letter-spacing: 0px;color: #292929;}
+.caseContentTitle span:nth-child(3){height: 52px; font-family: TimesNewRomanPSMT;font-size: 32px;font-weight: normal;font-stretch: normal;line-height: 24px;letter-spacing: 0px;color: #292929;}
+.caseGame button{height: 89px; border: 0; background: #5ebbdd; width: 288px; border-radius: 10px; font-size: 36px; color: #fff; margin-top: 64px; margin-bottom: 52px;}
+#toolCase{background: #57e26a;}
+#channel{background: #f45387;}
+#quality{background: #a640c0;}
+.caseGameImg{width: 1180px; margin:0 auto; overflow: hidden;}
+.caseGameImg img{width: 100%; height: 100%;}
+@media only screen and (max-width:480px){.caseContent{width: 100%;padding-bottom: 20px;} .caseContentTitle{overflow: hidden;} .caseContentTitle span:nth-child(1){height: 52px; font-family: PingFang-SC-Heavy; font-size: 22px; font-weight: normal; font-stretch: normal; line-height: 24px; letter-spacing: 0px; color: #f8cc00;} .caseContentTitle span:nth-child(2){height: 52px; font-family: PingFang-SC-Heavy; font-size: 23px; font-weight: normal; font-stretch: normal; line-height: 24px; letter-spacing: 0px; color: #292929;} .caseContentTitle span:nth-child(3){height: 52px; font-family: TimesNewRomanPSMT; font-size: 16px; font-weight: normal; font-stretch: normal; line-height: 24px; letter-spacing: 0px; color: #292929;} .caseContentTitle{width: 274px; margin: 0 auto; margin-top: 20px; padding-bottom: 15px; margin-bottom: 20px; border-bottom: 1px solid #b6aeae; text-align: center; font-family: PingFang-SC-Heavy;} .caseGame{width: 90%;margin:0 auto} .caseGame button{height: 36px; border: 0; background: #5ebbdd; width: 150px; border-radius: 5px; font-size: 20px; color: #fff; margin-top: 19px; margin-bottom:22px;} .caseGameImg{width: 100%; margin: 0 auto; overflow: hidden;} .caseGameImg{width: 90%;margin: 0 auto;}} 

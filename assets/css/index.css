@@ -115,135 +115,62 @@ h1{text-transform: uppercase; margin: 0; padding: 0; font-size: 2.5rem;}
 .companyProduce2 p{line-height: 42px;font-size: 44px;text-align: center;font-family: MicrosoftYaHei;}
 .companyProduce2 h3{height: 77px; font-size: 18px; text-align: center;font-weight: normal;font-stretch: normal;line-height: 40px;letter-spacing: 8px; font-family: MicrosoftYaHei;font-weight: normal;letter-spacing: 4px; color: #1a1a1a;}
 .companyProduceContent{width:100%;height:645px;background-image: url(../img/index/produceLogo.png); background-repeat: no-repeat; background-size: 100% 100%; background-position: left top;padding-top: 110px;}
-
 .companyProduceContentCenter{width: 1000px;height: auto;margin: 20px auto;background-color: #100d01;opacity: 0.72;padding-bottom: 40px;}
 .companyProduceContentCenter div{height: 3px;background: #fff;width: 50%;margin: 15px auto;}
-.companyProduceContentCenter h3{
-    color: #fff;text-align: center;padding-top: 50px;font-family: PingFang-SC-Regular;
-	font-size: 35px;
-	font-weight: normal;
-	letter-spacing: 0px;
-	color: #ffffff;}
-.companyProduceContentCenter h3 span{
-	font-family: PingFang-SC-Heavy;
-	font-size: 44px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 24px;
-	letter-spacing: 0px;
-	color: #f8cc00;}
-.companyProduceContentCenter h3 em{
-    font-family: MyriadPro-Regular;
-	font-size: 23px;
-	font-weight: normal;
-	letter-spacing: 0px;
-	color: #ffffff;
-}        
-.companyProduceContentCenter p{
-    text-align:justify;
-    text-align-last:left;
-    -ms-text-align-last:justify;
-    -moz-text-align-last:justify;
-    width: 90%;
-    margin:0 auto;
-	font-family: PingFang-SC-Light;
-	font-size: 22px;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 38px;
-    letter-spacing: 0px;
-    text-indent: 34px;
-	color: #ffffff;
-}
-.serviceContent{
-    width: 100%;
-    height: 660px;
-    background: #f3f3f3;
-}
-.serviceContent>p{
-    text-align: center;
-    /* height: 34px; */
-	font-family: MicrosoftYaHei;
-	font-size: 34px;
-	font-weight: normal;
-	font-stretch: normal;
-    line-height: 34px;
-	letter-spacing: 0px;
-    color: #474747;
-    padding-top: 87px;
-    padding-bottom: 51px;
-}
-.serviceContentP{width: 1126px;margin: 0 auto;display: flex;justify-content: space-around}
-.serverContentC{display: inline-block;width: 200px;border: 1px solid #ccc;background: #ECE4E4;text-align: center;
-    box-shadow: 0 0 25px #999;border-radius: 8px;
-}
-.serverContentC:hover{box-shadow: 0 0 25px rgb(255, 210, 46);border: 0;}
-.serverContentCImg{width: 100%;padding:  20px 0px 12px 0;border-bottom: 1px solid #CCCCCC}
+.companyProduceContentCenter h3{color: #fff;text-align: center;padding-top: 50px;font-family: PingFang-SC-Regular;font-size: 35px;font-weight: normal;letter-spacing: 0px;color: #ffffff;}
+.companyProduceContentCenter h3 span{font-family: PingFang-SC-Heavy;font-size: 44px;font-weight: normal;font-stretch: normal;line-height: 24px;letter-spacing: 0px;color: #f8cc00;}
+.companyProduceContentCenter h3 em{font-family: MyriadPro-Regular;font-size: 23px;font-weight: normal;letter-spacing: 0px;color: #ffffff;}
+.companyProduceContentCenter p{text-align:justify; text-align-last:left; -ms-text-align-last:justify; -moz-text-align-last:justify; width: 90%; margin:0 auto;font-family: PingFang-SC-Light;font-size: 22px;font-weight: normal;font-stretch: normal;line-height: 38px; letter-spacing: 0px; text-indent: 34px;color: #ffffff;}
+.serviceContent{width: 100%; height: 660px; background: #f3f3f3;}
+.serviceContent>p{text-align: center; /* height: 34px; */font-family: MicrosoftYaHei;font-size: 34px;font-weight: normal;font-stretch: normal; line-height: 34px;letter-spacing: 0px; color: #474747; padding-top: 87px; padding-bottom: 51px;}
+.serviceContentP{width: 1126px;margin: 0 auto;height: auto;overflow: hidden;padding:20px;}
+.serviceContentP>a{display: inline-block;width: 200px;height:330px;border: 1px solid #ccc;background: #ECE4E4;margin-top: 0px; text-align: center;box-shadow: 0 0 25px #999;border-radius: 8px;margin-right: 90px;overflow: hidden;}
+#tabTargetLast{display: inline-block;width: 200px;height:330px;border: 1px solid #ccc;background: #ECE4E4; text-align: center;box-shadow: 0 0 25px #999;border-radius: 8px;margin-right: 0px;overflow: hidden;}
+.serverContentC{display: inline-block;width: 200px;height:330px;background: #ECE4E4;text-align: center;}
+.serviceContentP>a:hover{box-shadow: 0 0 25px rgb(255, 210, 46);border: 0;}
+#tabTargetLast:hover{box-shadow: 0 0 25px rgb(255, 210, 46);border: 0;}
+.serverContentCImg{width: 100%;padding: 20px 0px 12px 0;border-bottom: 1px solid #CCCCCC}
 .serverContentCC h2{font-size: 24px;color: #99CCCC;line-height: 50px;padding-top: 20px;}
-.serverContentCC p{font-size: 15px;line-height: 22px;width: 100px;margin:0 auto;padding-bottom: 40px}
+.serverContentCC p{font-size: 15px;line-height: 22px;width: 100px;height:110px;margin:0 auto;padding-bottom: 40px;color: #000;}
 .myConstom{text-align: center;background: #fff;padding: 70px 0;}
-
-
-
-
-
-
-
-@media screen and (max-width: 1280px){
-    .a-container{width: 970px;}
-    .companyProduceContent{height: 600px}
-}
-@media screen and (max-width: 1024px){
-    .o-slider-arrows{display: none;} 
-    .o-sliderContainer{height: 450px; width: 100%; margin: 0 0 0px 0;} 
-    .o-slider--item{height: 450px;}
-    .companyProduceContent{height: 550px}
-    
-}
+@media screen and (max-width: 1280px){.a-container{width: 970px;} .companyProduceContent{height: 600px}}
+@media screen and (max-width: 1024px){.o-slider-arrows{display: none;} .o-sliderContainer{height: 450px; width: 100%; margin: 0 0 0px 0;} .o-slider--item{height: 450px;} .companyProduceContent{height: 550px}}
 @media screen and (max-width: 768px){
-    .a-container{width: 90%; margin: 20px auto;} 
-    .a-1_2{width: 100%; display: block; margin: 0;} 
-    .o-slider-arrows{display: none;} 
-    .o-sliderContainer{height: 350px;} 
-    .o-slider--item{height: 350px;} 
-    .o-slider-panel img{left: -15%; width: 130%;}
-    .o-slider-pagination > li{position: relative; top: 0; right: 0; bottom: 0; left: 0; height: 6px; width: 6px; margin-left: 6px; margin-right: 6px; transition: all 250ms; cursor: pointer; background-clip: padding-box; z-index: 100;}
-    .companyProduce{width:100%;height: 120px;background:url(../img/index/bgIndex.png);margin: 24px auto;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;overflow: hidden}
-    .companyProduce .companyProduceTitle{width: 150px;height: 74px;margin:0 auto;margin-top: 30px;}
-    .companyProduce1{width: 2px;border-left: 1px solid #333;border-right: 1px solid #999;height: 100%;float: left}
-    .companyProduce3{width: 2px;border-left: 1px solid #999;border-right: 1px solid #333;height: 100%;float: left}
-    .companyProduce2{width: 130px;height: 100%;float: left}
-    .companyProduce2 p{line-height: 42px;font-size: 26px;text-align: center;font-family: MicrosoftYaHei;}
-    .companyProduce2 h3{height: 30px; font-size: 12px; text-align: center;font-weight: normal;font-stretch: normal;line-height: 30x;font-family: MicrosoftYaHei;font-weight: normal;letter-spacing: 1px; color: #1a1a1a;}
-    .companyProduceContent{background-image: url(../img/index/produceLogo.png); background-repeat: no-repeat; background-size: 100% 100%; background-position: left top;}
+    .a-container{width: 90%; margin: 20px auto;} .a-1_2{width: 100%; display: block; margin: 0;} .o-slider-arrows{display: none;} 
+    .o-sliderContainer{height: 350px;} .o-slider--item{height: 350px;} .o-slider-panel img{left: -15%; width: 130%;} 
+    .o-slider-pagination > li{position: relative; top: 0; right: 0; bottom: 0; left: 0; height: 6px; width: 6px; margin-left: 6px; margin-right: 6px; transition: all 250ms; cursor: pointer; background-clip: padding-box; z-index: 100;} .companyProduce{width:100%;height: 120px;background:url(../img/index/bgIndex.png);margin: 24px auto;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;overflow: hidden} .companyProduce .companyProduceTitle{width: 150px;height: 74px;margin:0 auto;margin-top: 30px;} .companyProduce1{width: 2px;border-left: 1px solid #333;border-right: 1px solid #999;height: 100%;float: left} .companyProduce3{width: 2px;border-left: 1px solid #999;border-right: 1px solid #333;height: 100%;float: left} .companyProduce2{width: 130px;height: 100%;float: left} .companyProduce2 p{line-height: 42px;font-size: 26px;text-align: center;font-family: MicrosoftYaHei;} .companyProduce2 h3{height: 30px; font-size: 12px; text-align: center;font-weight: normal;font-stretch: normal;line-height: 30x;font-family: MicrosoftYaHei;font-weight: normal;letter-spacing: 1px; color: #1a1a1a;} 
+    .companyProduceContent{background-image: url(../img/index/produceLogo.png); background-repeat: no-repeat; background-size: 100% 100%; background-position: left top;} 
     .companyProduceContent{height: 270px}
-    
 }
 @media screen and (max-width: 480px){
-    .o-slider--item{height: 270px;} 
-    .o-slider--item img{left: -20%; width: 140%;} 
-    .o-sliderContainer{height: 270px;}
-    .companyProduceContent{height: 210px}
+    .o-slider--item{height: 270px;} .o-slider--item img{left: -20%; width: 140%;} 
+    .o-sliderContainer{height: 270px;} 
+    .companyProduceContent{height: auto} 
+    .companyProduce{width:100%;height: 80px;background:url(../img/index/bgIndex.png);margin: 12px auto;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;overflow: hidden} 
+    .companyProduce .companyProduceTitle{width: 150px;height: 50px;margin:0 auto;margin-top: 15px;} .companyProduce2 p{line-height: 24px;font-size: 26px;text-align: center;font-family: MicrosoftYaHei;} 
+    .companyProduceContent{background-image: url(../img/index/produceLogo.png); background-repeat: no-repeat; background-size: cover; background-position: left top;} 
+    
+    .companyProduce2 h3{height: 32px; font-size: 13px; text-align: center; font-weight: normal; font-stretch: normal; line-height: 28px; /* letter-spacing: 8px; */ font-family: MicrosoftYaHei; font-weight: normal; /* letter-spacing: 4px; */ color: #1a1a1a;}
+    .companyProduceContentCenter{width: 100%;height: auto;margin: 20px auto;background-color: #100d01;opacity: 0.72;padding-bottom: 40px;}
+    .companyProduceContentCenter div{height: 1px;background: #fff;width: 50%;margin: 8px auto;}
+    .companyProduceContentCenter h3{color: #fff;text-align: center;padding-top: 10px;font-family: PingFang-SC-Regular;font-size:16px;font-weight: normal;letter-spacing: 0px;color: #ffffff;}
+    .companyProduceContentCenter h3 span{font-family: PingFang-SC-Heavy;font-size: 22px;font-weight: normal;font-stretch: normal;line-height: 20px;letter-spacing: 0px;color: #f8cc00;}
+    .companyProduceContentCenter h3 em{font-family: MyriadPro-Regular;font-size: 14px;font-weight: normal;letter-spacing: 0px;color: #ffffff;}
+    .companyProduceContentCenter p{text-align:justify; text-align-last:left; -ms-text-align-last:justify; -moz-text-align-last:justify; width: 90%; margin:0 auto;font-family: PingFang-SC-Light;font-size: 13px;font-weight: normal;font-stretch: normal;line-height: 22px; letter-spacing: 0px; text-indent: 26px;color: #ffffff;}
+    .companyProduceContent{padding-top: 0;}
+    #service5{font-size: 24px}
+    .serviceContent>p{text-align: center;font-size: 26px;line-height: 30px;letter-spacing: 0px; color: #474747; padding-top: 23px; padding-bottom: 0px;}
+    .serviceContentP>a{display: block;width: 200px;height:298px;border: 1px solid #ccc;background: #ECE4E4;margin-top: 20px; text-align: center;box-shadow: 0 0 25px #999;border-radius: 8px;overflow: hidden;margin:10px auto;margin-bottom: 30px;}
+    #tabTargetLast{display: block;width: 200px;height:330px;border: 1px solid #ccc;background: #ECE4E4;margin-top: 20px; text-align: center;box-shadow: 0 0 25px #999;border-radius: 8px;overflow: hidden;margin:10px auto;margin-bottom: 30px;}
+
+    .serviceContentP{width: 100%;margin: 0 auto;height: auto;overflow: hidden;padding:20px;}
+    .serviceContent{width: 100%; height: auto; background: #f3f3f3;}
+    .myConstom{padding:20px;}
+    .myConstom img{width:100%;}
+    .serverContentCC h2{font-size: 24px;color: #99CCCC;line-height: 50px;padding-top: 0px;}
+    
+
+
+
 }
-
-
 /* body{padding-bottom: 800px;} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -2,7 +2,7 @@ $(document).ready(function() {
 	//导航开始
 	$(window).on('scroll', function() {
 		if($(window).scrollTop() > 100) {
-			$('#mainNav').removeClass('hc-top-up').addClass('hc-top-nd');
+			// $('#mainNav').removeClass('hc-top-up').addClass('hc-top-nd');
 			// $(".hc-logobox img").src;
 			// $(".hc-logobox img").attr('src', 'img/img/logo1.png');
 

@@ -12,10 +12,14 @@
     <link rel="stylesheet" href="assets/css/case.css">
     <link rel="stylesheet" href="assets/css/service.css">
 </head>
+<!-- 浮动提示框 -->
+<div class="tipsFloat">
+    <p>横向滑动查看更多内容</p>
+</div>
 <!-- 导航条公共部分 -->
 <nav id="mainNav" class="navbar navbar-default  hc-top-up">
     <div class="container-fluid">
-        <a href="javascript:void(0)" class="hc-logobox">
+        <a href="index.html" class="hc-logobox">
             <img src="assets/img/index/logo.png" />
         </a>
         <div id="oiBtn" class="hc-oi p1100">
@@ -23,29 +27,28 @@
         </div>
         <div id="search">
             <input type="text" placeholder="请输入您要搜索的内容">
-            <input class="searchBtn" type="text" readonly>
-            </span>
+            <input class="searchBtn" type="text" readonly></span>
         </div>
         <ul id="navBox" class="nav navbar-nav navbar-right hc-navbox">
             <li>
-                <a class="nav-on" href="#">公司简介</a>
-                <a class="nav-off" href="#">公司简介</a>
+                <a class="nav-on" href="index.html">公司简介</a>
+                <a class="nav-off" href="index.html">公司简介</a>
             </li>
             <li>
-                <a class="nav-on" href="businesIntroduce.html">业务介绍</a>
-                <a class="nav-off" href="businesIntroduce.html">业务介绍</a>
+                <a class="nav-off" href="service.html">业务介绍</a>
+                <a class="nav-off" href="service.html">业务介绍</a>
             </li>
             <li>
-                <a class="nav-on" href="#">蜂潮案例</a>
-                <a class="nav-off" href="#">蜂潮案例</a>
+                <a class="nav-on" href="case.html">蜂潮案例</a>
+                <a class="nav-off" href="case.html">蜂潮案例</a>
             </li>
             <li>
-                <a class="nav-on" href="#">业务合作</a>
-                <a class="nav-off" href="#">业务合作</a>
+                <a class="nav-on" href="cooperation.html">业务合作</a>
+                <a class="nav-off" href="cooperation.html">业务合作</a>
             </li>
             <li>
-                <a class="nav-on" href="#">加入我们</a>
-                <a class="nav-off" href="#">加入我们</a>
+                <a class="nav-on" href="joinUs.html">加入我们</a>
+                <a class="nav-off" href="joinUs.html">加入我们</a>
             </li>
         </ul>
     </div>
@@ -55,11 +58,16 @@
     <img src="assets/img/service/serviceBanner.png" alt="蜂潮业务">
 </div>
 <!-- tab4的块 -->
-<div class="contentImg1">
+<div class="contentImg1"  id="tabTarget1">
     <div class="serviceW128">
         <div class="serviceCom">
             <div class="tabPanel1">
-                <ul></ul>
+                <ul>
+                    <li><a href="#tabTarget1"></a></li>
+                    <li><a href="#tabTarget2"></a></li>
+                    <li><a href="#tabTarget3"></a></li>
+                    <li><a href="#tabTarget4"></a></li>
+                </ul>
             </div>
             <div class="tabVertical1">
                 <p>ios、安卓上架＋加速过审</p>
@@ -119,7 +127,7 @@
     </div>
 </div>
 <!-- 第二个tab -->
-<div class="iosCps">
+<div class="iosCps" id="tabTarget2">
     <p class="iosCpsP">ASO ios、安卓马甲包cps</p>
     <div class="tabPanel">
         <ul>
@@ -140,278 +148,7 @@
                     <div class="androidAsoL">
                         <img class="androidAsoLImg" src="assets/img/service/title1.png" alt="">
                         <p class="androidAsoLP">以下为参考报价，实际价格以最终方案为准</p>
-                        <!-- <table align="center" width="500" height="280" border=1 bordercolor="#00ff99">
-                                <tbody>
-                                    <tr>
-                                        <td height="20" colspan="8" align="center">安卓关键词排名服务（冲词业务）2017年5月价格表</td>
-                                    </tr>
-                                    <tr colspan="8" height="50">
-                                        <td width="11%">安卓市场</td>
-                                        <td width="8.7%">需求</td>
-                                        <td width="8%">价格<br>普词</td>
-                                        <td width="7%">热词</td>
-                                        <td width="5%">结算<br>方式</td>
-                                        <td width="8%">起做<br>天数</td>
-                                        <td width="15%">判断标准</td>
-                                        <td width="12%">备注</td>
-                                    </tr>
-                                    <tr colspan="8" height="70">
-                                        <td width="11%">应用宝</td>
-                                        <td width="8.7%">
-                                            <tr height="20">T1</tr>
-                                            <tr height="20">T1</tr>
-                                            <tr height="20">T1</tr>
-                                        </td>
-                                        <td width="8%">价格<br>普词</td>
-                                        <td width="7%">热词</td>
-                                        <td width="8%">结算<br>方式</td>
-                                        <td width="8%">起做<br>天数</td>
-                                        <td width="15%">判断标准</td>
-                                        <td width="12%">备注</td>
-                                    </tr>
-                                    <tr colspan="8">
-                                        <td>右边</td>
-                                        <td>右边</td>
-                                        <td>右边</td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="8" align="center">网站底部信息</td>
-                                    </tr>
-                                </tbody>
-                            </table> -->
-                        <!-- <table class="tg">
-                            <tr>
-                                <th class="tg-j6lv" colspan="15">安卓关键词排名服务（冲词业务）2017年5月价格表</th>
-                            </tr>
-                            <tr>
-                                <td class="tg-hxtd">安卓市场</td>
-                                <td class="tg-hxtd">需求</td>
-                                <td class="tg-hxtd">价格</td>
-                                <td class="tg-hxtd">热词</td>
-                                <td class="tg-hxtd">结算</td>
-                                <td class="tg-hxtd">起做</td>
-                                <td class="tg-j6lv" colspan="6">判断标准</td>
-                                <td class="tg-j6lv" colspan="3">备注</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-baqh" rowspan="3">应用宝</td>
-                                <td class="tg-yw4l">T1</td>
-                                <td class="tg-yw4l">800</td>
-                                <td class="tg-yw4l">1000</td>
-                                <td class="tg-yw4l" rowspan="3">预付</td>
-                                <td class="tg-yw4l" rowspan="3"></td>
-                                <td class="tg-yw4l" colspan="6">以应用宝Pc排名为准，手机去</td>
-                                <td class="tg-yw4l" rowspan="3">移动端前5基本</td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">T2-5</td>
-                                <td class="tg-yw4l">600</td>
-                                <td class="tg-yw4l">800</td>
-                                <td class="tg-yw4l" colspan="6">除广告位</td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">T6-10</td>
-                                <td class="tg-yw4l">400</td>
-                                <td class="tg-yw4l">600</td>
-                                <td class="tg-yw4l" colspan="6"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l" rowspan="3">360</td>
-                                <td class="tg-yw4l">T2</td>
-                                <td class="tg-yw4l">900</td>
-                                <td class="tg-yw4l">1100</td>
-                                <td class="tg-yw4l" rowspan="3">预付</td>
-                                <td class="tg-yw4l" rowspan="3"></td>
-                                <td class="tg-yw4l" colspan="6">以360手机端包含广告位的排名为准（
-                                    <br>360第一位基本固定为广告位）
-                                    <br>
-                                    <br>
-                                </td>
-                                <td class="tg-yw4l" rowspan="3"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">T2-5</td>
-                                <td class="tg-yw4l">700</td>
-                                <td class="tg-yw4l">900</td>
-                                <td class="tg-yw4l" colspan="6"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">Ť10</td>
-                                <td class="tg-yw4l">500</td>
-                                <td class="tg-yw4l">700</td>
-                                <td class="tg-yw4l" colspan="6"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l" rowspan="3">OPPO</td>
-                                <td class="tg-yw4l">T1</td>
-                                <td class="tg-yw4l">900</td>
-                                <td class="tg-yw4l">1100</td>
-                                <td class="tg-yw4l" rowspan="3">预付</td>
-                                <td class="tg-yw4l" rowspan="3"></td>
-                                <td class="tg-yw4l" colspan="6">以OPPO手机端排名为准</td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">T2-5</td>
-                                <td class="tg-yw4l">700</td>
-                                <td class="tg-yw4l">900</td>
-                                <td class="tg-yw4l" colspan="6"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">T6-10</td>
-                                <td class="tg-yw4l">500</td>
-                                <td class="tg-yw4l">700</td>
-                                <td class="tg-yw4l" colspan="6"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l" rowspan="4">热词</td>
-                                <td class="tg-yw4l" colspan="14">1.天气，金融，旅游，酒店，机票，股票，基金，投资，证券，炒股，夺宝，兼职，赚钱，记账聊天，交友，团购等热词
-                                    <br>要求一般OPPO按TOP1降一档TOP5 360按TOP2降一档TOP6收费2.理财，贷款按市场价格调整，一般按1 5 10
-                                    <br>三挡收费TOP1 2000，TOP5 1500，TOP10 10003.彩票，借钱，借贷，手机贷款等词要求按TOP5 1200，TOP10 800降
-                                    <br>一档收费4.单产品1-2个词要求至少15天起做，单产品3个词及以上可以10天起做</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l" colspan="14"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l" colspan="14"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l" colspan="14"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                        </table> -->
-                        <!-- <table class="tg">
-                            <tr>
-                                <th class="tg-j6lv" colspan="13">安卓关键词排名服务（冲词业务）2017年5月价格表</th>
-                            </tr>
-                            <tr>
-                                <td class="tg-hxtd">安卓市场</td>
-                                <td class="tg-hxtd">需求</td>
-                                <td class="tg-hxtd">价格</td>
-                                <td class="tg-hxtd">热词</td>
-                                <td class="tg-hxtd">结算</td>
-                                <td class="tg-hxtd">起做</td>
-                                <td class="tg-j6lv" colspan="6">判断标准</td>
-                                <td class="tg-j6lv">备注</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-baqh" rowspan="3">应用宝</td>
-                                <td class="tg-yw4l">T1</td>
-                                <td class="tg-yw4l">800</td>
-                                <td class="tg-yw4l">1000</td>
-                                <td class="tg-yw4l" rowspan="3">预付</td>
-                                <td class="tg-yw4l" rowspan="3"></td>
-                                <td class="tg-yw4l" colspan="6">以应用宝Pc排名为准，手机去</td>
-                                <td class="tg-yw4l" rowspan="3">移动端前5基本</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">T2-5</td>
-                                <td class="tg-yw4l">600</td>
-                                <td class="tg-yw4l">800</td>
-                                <td class="tg-yw4l" colspan="6">除广告位</td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">T6-10</td>
-                                <td class="tg-yw4l">400</td>
-                                <td class="tg-yw4l">600</td>
-                                <td class="tg-yw4l" colspan="6"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l" rowspan="3">360</td>
-                                <td class="tg-yw4l">T2</td>
-                                <td class="tg-yw4l">900</td>
-                                <td class="tg-yw4l">1100</td>
-                                <td class="tg-yw4l" rowspan="3">预付</td>
-                                <td class="tg-yw4l" rowspan="3"></td>
-                                <td class="tg-yw4l" colspan="6">以360手机端包含广告位的排名为准（
-                                    <br>360第一位基本固定为广告位）
-                                    <br>
-                                    <br>
-                                </td>
-                                <td class="tg-yw4l" rowspan="3"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">T2-5</td>
-                                <td class="tg-yw4l">700</td>
-                                <td class="tg-yw4l">900</td>
-                                <td class="tg-yw4l" colspan="6"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">Ť10</td>
-                                <td class="tg-yw4l">500</td>
-                                <td class="tg-yw4l">700</td>
-                                <td class="tg-yw4l" colspan="6"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l" rowspan="3">OPPO</td>
-                                <td class="tg-yw4l">T1</td>
-                                <td class="tg-yw4l">900</td>
-                                <td class="tg-yw4l">1100</td>
-                                <td class="tg-yw4l" rowspan="3">预付</td>
-                                <td class="tg-yw4l" rowspan="3"></td>
-                                <td class="tg-yw4l" colspan="6">以OPPO手机端排名为准</td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">T2-5</td>
-                                <td class="tg-yw4l">700</td>
-                                <td class="tg-yw4l">900</td>
-                                <td class="tg-yw4l" colspan="6"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">T6-10</td>
-                                <td class="tg-yw4l">500</td>
-                                <td class="tg-yw4l">700</td>
-                                <td class="tg-yw4l" colspan="6"></td>
-                                <td class="tg-yw4l"></td>
-                            </tr>
-                            <tr>
-                                <td class="tg-yw4l">热词</td>
-                                <td class="tg-yw4l" colspan="12">1.天气，金融，旅游，酒店，机票，股票，基金，投资，证券，炒股，夺宝，兼职，赚钱，记账聊天，交友，团购等热词
-                                    <br>要求一般OPPO按TOP1降一档TOP5 360按TOP2降一档TOP6收费2.理财，贷款按市场价格调整，一般按1 5 10
-                                    <br>三挡收费TOP1 2000，TOP5 1500，TOP10 10003.彩票，借钱，借贷，手机贷款等词要求按TOP5 1200，TOP10 800降
-                                    <br>一档收费4.单产品1-2个词要求至少15天起做，单产品3个词及以上可以10天起做</td>
-                            </tr>
-                        </table> -->
-                        <table class="tg" style="table-layout: fixed; width: 500px">
+                        <table class="tg" style="table-layout: fixed; width: 600px;margin:0 auto;">
                             <colgroup>
                                 <col style="width: 54px">
                                 <col style="width: 55px">
@@ -428,7 +165,7 @@
                                 <col style="width: 53px">
                             </colgroup>
                             <tr>
-                                <th class="tg-j6lv" colspan="13" style="height:34px;">安卓关键词排名服务（冲词业务）2017年5月价格表</th>
+                                <th class="tg-j6lv" colspan="13" style="height:20px;">安卓关键词排名服务（冲词业务）2017年5月价格表</th>
                             </tr>
                             <tr>
                                 <td class="tg-hxtd">安卓市场</td>
@@ -518,6 +255,7 @@
                                     4.单产品1-2个词要求至少15天起做，单产品3个词及以上可以10天起做</td>
                             </tr>
                         </table>
+                        <p class="asoBottomP"><span></span>所有价格均未含票，如需开票，请与销售联系</p>
                     </div>
                     <div class="androidAsoR">
                         <img class="androidAsoRImg" src="assets/img/service/title2.png" alt="">
@@ -590,10 +328,10 @@
     </div>
 </div>
 <!-- 第三个tab -->
-<div class="iosCpsUp">
+<div class="iosCpsUp"  id="tabTarget3">
     <div class="iosCps">
         <p class="iosCpsP capPub">CAP推广</p>
-        <div class="tabPanel">
+        <div class="tabPanel tabPanel33">
             <ul>
                 <li class=" tabPanelLi3 bgHover">
                     <p></p>
@@ -610,7 +348,7 @@
                     <div class="androidAso">
                         <h2 class="androidAsoTitle">针对贷款金融产品推广资源（贷款超市、短信、dmp代投）</h2>
                         <div class="capfirst1">
-                            <img class="androidAsoLImg" src="assets/img/service/title1.png" alt="">
+                            <img class="androidAsoLImg" src="assets/img/service/tabli1.png" alt="">
                             <p class="androidAsoLP">货款产品/贷款平台CPA注册</p>
                             <ol class="capol">
                                 <li>1.需要信息：H5链接（最好为Https)/icon/广告语。</li>
@@ -618,7 +356,7 @@
                             </ol>
                         </div>
                         <div class="capfirst1">
-                            <img class="androidAsoLImg" src="assets/img/service/title1.png" alt="">
+                            <img class="androidAsoLImg" src="assets/img/service/tabli2.png" alt="">
                             <p class="androidAsoLP">APP媒体直投（保ROI效果)</p>
                             <ol class="capol">
                                 <li>1.理财/基金等保本投资产品  </li>
@@ -627,7 +365,7 @@
                             </ol>
                         </div>
                         <div class="capfirst1">
-                            <img class="androidAsoLImg" src="assets/img/service/title1.png" alt="">
+                            <img class="androidAsoLImg" src="assets/img/service/tabli3.png" alt="">
                             <p class="androidAsoLP">投资人渠道CPS</p>
                             <ol class="capol">
                                 <li>1.理财/基金等保本投资产品</li>
@@ -658,8 +396,8 @@
                     <div class="androidAso">
                         <h2 class="androidAsoTitle">针对游戏推广资源（游戏内激励视频、中部app sdk资源）</h2>
                         <div class="capfirst2">
-                            <img class="" id="tabrightId" src="assets/img/service/tabright.png" alt="">
-                            <p class="capfirst2P">Lightning Play™ Video (reward views)</p>
+                            <img class="" id="tabrightId" src="assets/img/service/tabright1.png" alt="针对游戏推广资源">
+                            <p class="capfirst2P capCenter">Lightning Play™ Video (reward views)</p>
                         </div>
                         <div class="capfirst2">
                             <img class="" src="assets/img/service/tableft.png" alt="">
@@ -673,19 +411,39 @@
         </div>
     </div>
 </div>
+<!-- 第4个块 -->
+<div class="iosCps" id="tabTarget4">
+    <div class="cptFloat">
+        <p class="iosCpsP">垂直媒体CPT售卖4</p>
+        <div class="cptFloat1">
+            <p>熊猫直播</p>
+            <img src="assets/img/service/vedio1.png" alt="熊猫直播">
+        </div>
+        <div class="cptFloat1">
+            <p>斗鱼直播</p>
+            <img src="assets/img/service/vedio2.png" alt="斗鱼直播">
+        </div>
+        <div class="cptFloat1">
+            <p>Blued</p>
+            <img src="assets/img/service/vedio3.png" alt="Blued">
+        </div>
+    </div>
+</div>
 <!-- 底部 -->
 <div class="foot">
     <div class="foot1">
         <span>联系方式</span>
         <span>020-22028688-8023</span>
+        <br class="brDisplay">
         <span>hr@meanbee.cnHr123456</span>
+        <br class="brDisplay">
         <span>广州市天河区珠江东路32号利通广场34F313室</span>
-        <span>联系方式</span>
     </div>
     <!-- <p>©Mean Bee.com 粤ICP证110567号 粤ICP备10066888号 粤公网安备1101080212668号 粤网文[2015]0059-0088号</p> -->
 </div>
 </body>
 <script src="assets/js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>
+<script src="assets/js/nav.js" type="text/javascript" charset="utf-8"></script>
 <script src="assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 <script>
     $('.tabPanelLi').click(function () {
@@ -695,6 +453,21 @@
     $('.tabPanelLi3').click(function () {
         $(this).addClass('bgHover').siblings().removeClass('bgHover');
         $('.panes3>div:eq(' + $(this).index() + ')').show().siblings().hide();
+    });
+//浮动悬框
+    $(window).scroll(function() {
+        var docd=$(document).scrollTop();
+        if (0<docd && docd<400) {
+            $(".tipsFloat").css({
+                "position": 'fixed',
+                "bottom": '20px'
+            });
+        }else if(docd>=400) {
+            $(".tipsFloat").css({
+                "position": 'fixed',
+                "bottom": '60px'
+            });
+        }
     });
 </script>
 </html>
